@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header part start */
+.header{
+    
+    background-color: #0C394B;
+}
+.logo-box img{
+    width: 180px;
+}
+.header-content p,.header-content a{
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+.header-content p img{
+    width: 37px;
+    margin-top: -5px;
+}
+
+/* header part end */
+
+/* banner part start */
+.banner{
+    min-height: 100vh;
+    background-image: url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+    
+}
+.banner::before,
+.card-banner::after,
+.contact::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(4,54,74,.5);
+    z-index: -1;
+}
+.banner-content h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+}
+.call-btn a{
+    display: inline-block;
+    padding: 20px 25px;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    border: 3px solid #04364A;
+    border-radius: 5px;
+    transition: .3s;
+    background-color: #04364A;
+}
+.call-btn a:hover{
+    
+    transform: translateY(-3px);
+}
+.h-call{
+    color: #F4CE14;
+    font-size: 28px;
+}
+.two-truck-heading p{
+    color: #fff;
+}
+/* banner part end */
+
+/* call one part star */
+.call-one{
+    background-color: #176B87;
+    position: relative;
+    overflow: hidden;
+}
+.call-one::after{
+    content: "";
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -50px;
+    background-color: #fff;
+    transform: skewX(-30deg);
+    
+    
+}
+.call-one-left h2,.two-truck-heading h2,.our-service-header h2,
+.call-two-content h2,.call-two-content a,.map-content h2,.contact-content h2,
+.form-heading h2{
+    font-size: 35px;
+    font-weight: 900;
+    color: #fff;
+
+}
+.call-one-left p{
+    color: #fff;
+}
+.call-one-right p a{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.call-one-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.call-one-right p img{
+    width: 45px;
+    margin-top: -15px;
+}
+/* call one part end */
+
+/* two trucks part start */
+.two-trucks-img{
+    position: relative;
+}
+.two-trucks-img .main-truck{
+    border-radius: 12px;
+    min-height: 450px;
+    object-fit: cover;
+    box-shadow: 0 0 10px 3px rgba(25,24,37,.5);
+}
+.two-truck-heading h2{
+    color: #fff;
+}
+.two-truck-heading h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+.two-truck-text p img{
+    width: 45px;
+    margin-right: 12px;
+}
+.two-truck-text p{
+    font-size: 23px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+/* two trucks part end */
+
+/* our services part start */
+.our-services{
+    background-color: #04364A;
+}
+.our-service-header h4{
+    font-size: 20px;
+    color: #fff;
+}
+.our-services .two-truck-text p{
+    color: #fff;
+    font-size: 20px;
+}
+/* our services part end */
+
+/* call two part start */
+.call-two{
+    background-color: #00719B;
+}
+/* call two part end */
+
+/* card banner part start */
+.card-banner{
+    height: 300px;
+    background-image: url("../images/bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 10;
+    background-attachment: fixed;
+}
+/* card banner part edn */
+
+/* main card part start */
+.main-card{
+    margin-top: -120px;
+    z-index: 20;
+}
+.main-card-box{
+    border-radius: 10px;
+    background-color: #176B87;
+    box-shadow: 0 0 10px 3px rgba(25,24,37,.5);
+    transition: .3s;
+    z-index: 20;
+}
+.main-card-box:hover{
+    transform: translateY(-5px);
+}
+.main-card-box h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+.main-card-box p{
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+}
+/* main card part end */
+
+/* google map part start */
+.map-box{
+    
+    background-color: #176B87;
+}
+iframe{
+    width: 100%;
+    min-height: 400px;
+}
+.google-map{
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.map-content h4,.map-content h5{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+.map-content h5{
+    font-size: 20px;
+}
+.map-content h2{
+    color: #fff;
+}
+.map-content p,.map-content a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* google map part end */
+
+/* contact part start */
+.contact{
+    min-height: 450px;
+    background-image: url("../images/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 10;
+    background-attachment: fixed;
+}
+.contact-content p,.contact-content a{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+.contact-form{
+    background-color: #fff;
+    border-top: 8px solid #04364A;
+}
+.imput-box{
+    margin-bottom: 15px;
+}
+.imput-box input{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    color: #191825;
+    border-radius: 5px;
+    background-color: #F3F3F3;
+    outline: 0;
+    border: 1px solid transparent;
+}
+.imput-box input:focus{
+    border: 1px solid #191825;
+}
+.form-heading h2{
+    color: #191825;
+}
+.submit-btn button{
+    width: 100%;
+    padding: 18px;
+    
+    color: #fff;
+    background-color: #04364A;
+    border: 2px solid #04364A;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: .3s;
+}
+.submit-btn button:hover{
+    background-color: #fff;
+    color: #191825;
+}
+/* contact part end */
+
+/* footer part start */
+.footer{
+    background-color: #04364A;
+}
+.footer-text p{
+    font-size: 14px;
+    color: #fff;
+}
+/* footer part end */

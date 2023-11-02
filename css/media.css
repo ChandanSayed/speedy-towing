@@ -1,0 +1,284 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .logo-box img{
+        width: 140px;
+    }
+    .header{
+        padding-bottom: 15px !important;
+    }
+    .header-content p .m-img{
+        width: 31px;
+    }
+    
+    
+    .banner-content h1{
+        font-size: 30px;
+    }
+    .banner-content a{
+        font-size: 18px;
+        padding: 15px 20px;
+    }
+    .banner{
+        padding: 15px;
+        min-height: 80vh;
+    }
+    .call-one::after{
+        display: none;
+    }
+    .call-one-left{
+        margin-bottom: 15px;
+    }
+    .call-one-left h2,.two-truck-heading h2,.our-service-header h2,
+    .call-two-content h2,.call-two-content a,.map-content h2,
+    .form-heading h2,.contact-content h2{
+        font-size: 30px;
+        
+    
+    }
+    
+    .header-content p{
+        font-size: 22px;
+    }
+    .call-one-right p a{
+        font-size: 18px;
+        
+    }
+    .call-one-right p img{
+        width: 32px;
+        margin-top: -8px;
+    }
+    .call-one-content{
+        display: block;
+    }
+
+    /* two truck part start */
+    .two-trucks-img .main-truck{
+        min-height: 350px;
+    }
+    .two-truck-heading h3{
+        font-size: 19px;
+    }
+    .two-truck-text p img{
+        width: 35px;
+        margin-right: 10px;
+    }
+    .two-truck-text p,.our-service-header h4,.our-services .two-truck-text p{
+        font-size: 17px;
+    }
+    
+    /* two truck part end */
+    /* main card part start */
+    .main-card{
+        margin-top: -0;
+        
+    }
+    .main-card-box h3{
+        font-size: 19px;
+    }
+    /* main card part end */
+    /* map part start */
+    .map-content h4,.map-content h5{
+        font-size: 18px;
+    }
+    .contact-content p,.contact-content a{
+        font-size: 17px;
+    }
+    .submit-btn button{
+        font-size: 16px;
+        padding: 17px 10px;
+    }
+    .imput-box input{
+        padding: 17px;
+    }
+    /* map part end */
+
+    /* ==================== */
+    .two-truck-text{
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .truck-text-2{
+        max-width: 100%;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .truck-text-2 p{
+        width: 220px;
+    }
+    /* ==================== */
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .logo-box img{
+        width: 160px;
+    }
+    .banner-content h1{
+        font-size: 40px;
+    }
+    .banner-content a{
+        font-size: 20px;
+        padding: 18px 22px;
+    }
+    .call-one::after{
+        display: none;
+    }
+    .call-one-left{
+        margin-bottom: 15px;
+    }
+    .call-one-left h2,.two-truck-heading h2,.our-service-header h2,
+    .call-two-content h2,.call-two-content a,.map-content h2,
+    .form-heading h2,.contact-content h2{
+        font-size: 25px;
+        
+    
+    }
+    .call-one-right p a{
+        font-size: 20px;
+        
+    }
+    .call-one-right p img{
+        width: 35px;
+        margin-top: -8px;
+    }
+    .call-one-content{
+        display: block;
+    }
+
+    /* two truck part start */
+    .two-truck-heading h3{
+        font-size: 21px;
+    }
+    .two-truck-text p img{
+        width: 38px;
+        margin-right: 12px;
+    }
+    .two-truck-text p,.our-services .two-truck-text p{
+        font-size: 20px;
+    }
+    .our-service-header h4{
+        font-size: 18px;
+    }
+    /* two truck part end */
+    /* main card part start */
+    .main-card{
+        margin-top: 0;
+        
+    }
+    .main-card-box h3{
+        font-size: 21px;
+    }
+    .contact-content p,.contact-content a{
+        font-size: 18px;
+    }
+    /* main card part end */
+
+    /* ==================== */
+    .two-truck-text{
+        max-width: 350px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .truck-text-2{
+        max-width: 100%;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .truck-text-2 p{
+        width: 250px;
+    }
+    /* ==================== */
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .logo-box img{
+        width: 160px;
+    }
+    .banner-content h1{
+        font-size: 50px;
+    }
+    .call-one::after{
+        display: none;
+    }
+    .call-one-left h2{
+        font-size: 25px;
+        
+    
+    }
+    .call-one-right p a{
+        font-size: 20px;
+        
+    }
+    .call-one-right p img{
+        width: 35px;
+        margin-top: -8px;
+    }
+    /* main card part start */
+    .main-card{
+        margin-top: 0;
+        
+    }
+    /* main card part end */
+
+    /* ==================== */
+    .two-truck-text{
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .truck-text-2{
+        max-width: 100%;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .truck-text-2 p{
+        width: 300px;
+    }
+    /* ==================== */
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .call-one-left h2{
+        font-size: 25px;
+        
+    
+    }
+    .call-one-right p a{
+        font-size: 20px;
+        
+    }
+    .call-one-right p img{
+        width: 35px;
+        margin-top: -8px;
+    }
+    .call-one::after{
+        width: 280px;
+    }
+    .submit-btn button{
+        padding: 18px 5px;
+        font-size: 16px;
+    }
+    .call-one::after{
+        width: 200px;
+    }
+ }
+
+/*Extra large devices (Extra large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {  }
+
+/*Extra large devices (Extra Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    
+ }
